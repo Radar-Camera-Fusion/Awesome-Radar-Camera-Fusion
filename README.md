@@ -29,7 +29,43 @@ Website: [https://XJTLU-VEC.github.io/Radar-Camera-Fusion](https://xjtlu-vec.git
 | 18 | K-Radar     | 2022 | Object Detection<br>Object Tracking<br>SLAM  | 3D box-level                     | Range-Azimuth-Doppler Tensor                                                                                                         | [Github](https://github.com/kaist-avelab/k-radar)  |
 | 19 | aiMotive    | 2022 | Object Detection                             | 3D box-level                     | Point cloud                                                                                                                       |  [Website](https://github.com/aimotive/aimotive_dataset) |
 
-## Datasets
+## Methods
+| Id | Short Name       | Year | Task                                      | Annotation                     | Radar Data Representation | Fusion Level  | Dataset                         | Link                                    |
+|----|------------------|------|-------------------------------------------|--------------------------------|---------------------------|---------------|---------------------------------|------------------------------------------------|
+| 1  | Chadwick et al.  | 2019 | Object Detection                          | 2D box-level                   | Point Cloud               | Feature Level | Self-Recorded                   |                                                |
+| 2  | RRPN             | 2019 | Object Detection                          | 2D box-level                   | Point Cloud               | Data Level    | nuScenes                        | [Code](https://github.com/mrnabati/RRPN)               |
+| 3  | Jha et al.       | 2019 | Object Detection                          | 2D box-level                   | Point Cloud               | Object Level  | Self-Recorded                   |                                                |
+| 4  | CMGGAN           | 2019 | Semantic Segmentation                     | 2D point-level                 | Grid Map                  | Feature Level | Self-Recorded                   |                                                |
+| 5  | Meyer and Kuschk | 2019 | Object Detection                          | 3D box-level                   | Point Cloud               | Data Level    | Astyx                           |                                                |
+| 6  | RVNet            | 2019 | Object Detection                          | 2D box-level                   | Point Cloud               | Feature Level | nuScenes                        |                                                |
+| 7  | FusionNet        | 2019 | Object Detection<br>Object Classification | 2D box-level                   | Range-Azimuth Tensor      | Feature Level | Self-Recorded                   |                                                |
+| 8  | SO-Net           | 2020 | Object Detection<br>Semantic Segmentation | 2D box-level<br>2D pixel-level | Point Cloud               | Feature Level | nuScenes                        |                                                |
+| 9  | SAF-FCOS         | 2020 | Object Detection                          | 2D box-level                   | Point Cloud               | Feature Level | nuScenes                        | [Code](https://github.com/Singingkettle/SAF-FCOS)      |
+| 10 | CRF-Net          | 2019 | Object Detection                          | 2D box-level                   | Point Cloud               | Data Level    | nuScenes <br> Self-Recorded | [Code](https://github.com/TUMFTM/CameraRadarFusionNet) |
+| 11 | Bijelic et al. | 2020 | Object Detection                 | 2D box-level | Point Cloud                  | Feature Level | DENSE         | [Code](https://github.com/princeton-computational-imaging/SeeingThroughFog)            |
+| 12 | BIRANet        | 2020 | Object Detection                 | 2D box-level | Point Cloud                  | Feature Level | nuScenes      | [Code](https://github.com/RituYadav92/Radar-RGB-Attentive-Multimodal-Object-Detection) |
+| 13 | Nabati and Qi  | 2020 | Object Detection<br>Depth Estimation | 2D box-level | Point Cloud              | Mixed Level   | nuScenes      |                                                                                |
+| 14 | YOdar          | 2020 | Object Detection                 | 2D box-level | Point Cloud                  | Feature Level | nuScenes      |                                                                                |
+| 15 | CenterNet      | 2020 | Object Detection                 | 3D box-level | Point Cloud                  | Feature Level | nuScenes      | [Code](https://github.com/mrnabati/CenterFusion)                                       |
+| 16 | RODNet         | 2020 | Object Detection                 | 2D box-level | Range-Azimuth Tensor         | Feature Level | CRUW          | [Code](https://github.com/yizhou-wang/RODNet)                                          |
+| 17 | RAMP-CNN       | 2021 | Object Detection                 | 2D box-level | Range-Azimuth-Doppler Tensor | Feature Level | CRUW          |                                                                                |
+| 18 | Li and Xie     | 2021 | Object Detection                 | 3D box-level | Point Cloud                  | Feature Level | nuScenes      |                                                                                |
+| 19 | Kim et al.     | 2020 | Object Detection                 | 3D box-level | Range-Azimuth Tensor         | Feature Level | Self-Recorded |                                                                                |
+| 20 | AssociationNet | 2021 | Object Detection                 | 2D box-level | Point Cloud                  | Object Level  | Self-Recorded |                                                                                |
+| 21 | RVF-Net        | 2021 | Object Detection      | 3D box-level               | Point Cloud                         | Data Level    | nuScenes                       |             |
+| 22 | Cui et al.     | 2021 | Object Detection      | 3D box-level               | Point Cloud                         | Mixed Level   | Astyx                          |             |
+| 23 | RISFNet        | 2021 | Object Detection      | 2D box-level               | Point Cloud                         | Feature Level | FloW                           |             |
+| 24 | GRIF Net       | 2021 | Object Detection      | 3D box-level               | Point Cloud                         | Feature Level | nuScenes                       |             |
+| 25 | Stacker et al. | 2021 | Object Detection      | 2D box-level               | Point Cloud                         | Feature Level | nuScenes                       |             |
+| 26 | Harley et al.  | 2021 | Semantic Segmentation | 2D pixel-level             | Point Cloud                         | Feature Level | nuScenes                       |             |
+| 27 | RadSegNet      | 2022 | Object Detection      | 2D box-level2D pixel-level | Point Cloud<br>Range-Azimuth Tensor | Data-Level    | Astyx<br>RADIATE               |             |
+| 28 | RCBEV          | 2022 | Object Detection      | 3D box-level               | Point Cloud                         | Feature Level | nuScenes                       |             |
+| 29 | CRAFT          | 2022 | Object Detection      | 3D box-level               | Point Cloud                         | Data Level    | nuScenes                       |             |
+| 30 | DeepFusion     | 2022 | Object Detection      | 3D box-level               | Point Cloud                         | Feature Level | Self-reorded <br> nuScenes |             |
+| 31 | CramNet    | 2022 | Object Detection | 3D box-level | Range-Azimuth Tensor      | Feature Level | RADIATE  |             |
+| 32 | MVFusion   | 2023 | Object Detection | 3D box-level | Point Cloud               | Feature Level | nuScenes |             |
+| 33 | CRN        | 2023 | Object Detection | 3D box-level | Point Cloud               | Feature Level | nuScenes |             |
+
 
 ## Citation
 Please use the following citation when referencing

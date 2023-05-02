@@ -58,7 +58,7 @@ Website: [https://XJTLU-VEC.github.io/Radar-Camera-Fusion](https://xjtlu-vec.git
 | 24 | GRIF Net       | 2021 | Object Detection      | 3D box-level               | Point Cloud                         | Feature Level | nuScenes                       |             |
 | 25 | Stacker et al. | 2021 | Object Detection      | 2D box-level               | Point Cloud                         | Feature Level | nuScenes                       |             |
 | 26 | Harley et al.  | 2021 | Semantic Segmentation | 2D pixel-level             | Point Cloud                         | Feature Level | nuScenes                       |             |
-| 27 | RadSegNet      | 2022 | Object Detection      | 2D box-level2D pixel-level | Point Cloud<br>Range-Azimuth Tensor | Data-Level    | Astyx<br>RADIATE               |             |
+| 27 | RadSegNet      | 2022 | Object Detection      | 2D box-level<br>2D pixel-level | Point Cloud<br>Range-Azimuth Tensor | Data-Level    | Astyx<br>RADIATE               |             |
 | 28 | RCBEV          | 2022 | Object Detection      | 3D box-level               | Point Cloud                         | Feature Level | nuScenes                       |             |
 | 29 | CRAFT          | 2022 | Object Detection      | 3D box-level               | Point Cloud                         | Data Level    | nuScenes                       |             |
 | 30 | DeepFusion     | 2022 | Object Detection      | 3D box-level               | Point Cloud                         | Feature Level | Self-reorded <br> nuScenes |             |

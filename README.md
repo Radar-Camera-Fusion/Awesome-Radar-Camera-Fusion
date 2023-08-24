@@ -1,5 +1,15 @@
 # <img src='image/logo.png' height=30 />  Awesome Radar-Camera Fusion 
-Website: [https://XJTLU-VEC.github.io/Radar-Camera-Fusion](https://xjtlu-vec.github.io/Radar-Camera-Fusion)
+
+* Website: [https://radar-camera-fusion.github.io](https://radar-camera-fusion.github.io)
+* IEEE T-IV: [https://ieeexplore.ieee.org/document/10225711](https://ieeexplore.ieee.org/document/10225711)
+* arXiv: [https://arxiv.org/abs/2304.10410](https://arxiv.org/abs/2304.10410)
+* 知乎: [https://zhuanlan.zhihu.com/p/629379363](https://zhuanlan.zhihu.com/p/629379363)
+
+## Contributions
+* To the best of our knowledge, this is the first survey focusing on two fundamental perception problems for radar-camera fusion, namely, object detection and semantic segmentation.
+* We present an up-to-date (2019 - 2023) overview of radar-camera fusion datasets and algorithms, and conduct in-depth research on why to fuse, what to fuse, where to fuse, when to fuse, and how to fuse.
+* We analyze the critical challenges and open questions in radar-camera fusion, and put forward potential research directions.
+* We provide an interactive and updated website for better retrieving and comparing the fusion datasets and methods.
 
 ## Overview
 - [Datasets](#Datasets)
@@ -28,7 +38,8 @@ Website: [https://XJTLU-VEC.github.io/Radar-Camera-Fusion](https://xjtlu-vec.git
 | 17 | TJ4DRadSet  | 2022 | Object Detection<br>Object Tracking          | 3D box-level                     | Point Cloud                                                                                                               | [Website](https://github.com/TJRadarLab/TJ4DRadSet)  |
 | 18 | K-Radar     | 2022 | Object Detection<br>Object Tracking<br>SLAM  | 3D box-level                     | Range-Azimuth-Doppler Tensor                                                                                                         | [Github](https://github.com/kaist-avelab/k-radar)  |
 | 19 | aiMotive    | 2022 | Object Detection                             | 3D box-level                     | Point cloud                                                                                                                       |  [Website](https://github.com/aimotive/aimotive_dataset) |
-| 20 | WaterScenes    | 2022 | Instance Segmentation<br>Semantic Segmentation<br>Free-space Segmentation<br>Waterline Segmentation<br>Panoptic Perception          | 2D box-level<br>2D pixel-level<br>2D line-level<br>3D point-level               | Point cloud                                                           |  [Website](https://waterscenes.github.io) |
+| 20 | WaterScenes    | 2023 | Instance Segmentation<br>Semantic Segmentation<br>Free-space Segmentation<br>Waterline Segmentation<br>Panoptic Perception          | 2D box-level<br>2D pixel-level<br>2D line-level<br>3D point-level               | Point cloud                                                           |  [Website](https://waterscenes.github.io) |
+| 21 | ThermRad | 2023 | Object Detection | 3D box-level | Point Cloud | [arXiv](https://arxiv.org/abs/2308.10161)|
 
 
 ## Methods
@@ -76,9 +87,12 @@ Website: [https://XJTLU-VEC.github.io/Radar-Camera-Fusion](https://xjtlu-vec.git
 Please use the following citation when referencing
 ```
 @article{yao2023radar,
-  title={Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review},
-  author={Yao, Shanliang and Guan, Runwei and Huang, Xiaoyu and Li, Zhuoxiao and Sha, Xiangyu and Yue, Yong and Lim, Eng Gee and Seo, Hyungjoon and Man, Ka Lok and Zhu, Xiaohui and others},
-  journal={arXiv preprint arXiv:2304.10410},
-  year={2023}
-}
+  author={Yao, Shanliang and Guan, Runwei and Huang, Xiaoyu and Li, Zhuoxiao and Sha, Xiangyu and Yue, Yong and Lim, Eng Gee and Seo, Hyungjoon and Man, Ka Lok and Zhu, Xiaohui and Yue, Yutao},
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-40},
+  doi={10.1109/TIV.2023.3307157}}
 ```

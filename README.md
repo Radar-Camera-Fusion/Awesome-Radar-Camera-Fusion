@@ -8,17 +8,24 @@
   - [Surveys](#surveys)
   - [Datasets](#datasets)
   - [Methods](#methods)
-  - [Tasks](#tasks)
+  - [Radar-Camera](#radar-camera)
     - [Detection](#detection)
     - [Segmentation](#segmentation)
     - [Tracking](#tracking)
+  - [Radar-LiDAR](#radar-lidar)
+    - [Detection](#detection-1)
+  - [Camera-LiDAR](#camera-lidar)
+    - [Detection](#detection-2)
+  - [Camera-LiDAR-Radar](#camera-lidar-radar)
+    - [Detection](#detection-3)
   - [Citation](#citation)
 
 ## Surveys
 
-* 2023-Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10225711)] [[Website](https://radar-camera-fusion.github.io)] [[GitHub](https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion)]
-* 2021-Deep Multi-Modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9000872)] [[Website](https://boschresearch.github.io/multimodalperception/)]
-
+* 2023 - Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10225711)] [[Website](https://radar-camera-fusion.github.io)] [[GitHub](https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion)]
+* 2021 - Deep Multi-Modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9000872)] [[Website](https://boschresearch.github.io/multimodalperception/)]
+* 2023 - Vision-RADAR fusion for Robotics BEV Detections: A Survey __`IV`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10186647)]
+  
 ## Datasets
 | Id | Name             | Year | Task                                                                                                      | Annotation                     | Radar Data Representation                                   | Link                                                         |
 |----|------------------|------|-----------------------------------------------------------------------------------------------------------|--------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|
@@ -83,23 +90,41 @@
 | 32 | MVFusion   | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | nuScenes |             |
 | 33 | CRN        | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | nuScenes |             |
 | 33 | RCFusion        | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | VoD <br> TJ4DRadSet |             |
-| 33 | LXL     | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | VoD <br> TJ4DRadSet |             |
-| 33 | Achelous        | 2023 | Object Detection | 3D box | Point Cloud               | Data Level | WaterScenes |     [Code](https://github.com/GuanRunwei/Achelous)     |
 
 
-## Tasks
+
+## Radar-Camera
 
 ### Detection
 
-* 2023-Achelous: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar __`ITSC`__ [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]
+* 2022 - Detecting Darting Out Pedestrians With Occlusion Aware Sensor Fusion of Radar and Stereo Camera  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/9941368)]
+* 2023 - **Achelous**: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar [__`WaterScenes`__] __`ITSC`__  [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]
+* 2023 - **LXL**: LiDAR Exclusive Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion  [__`VoD`__ __`TJ4DRadSet`__]  __`TIV`__ [[Paper](https://arxiv.org/abs/2307.00724)]
 
 ### Segmentation
 
 ### Tracking
-* 2021-A Novel Spatio-Temporal Synchronization Method of Roadside Asynchronous MMW Radar-Camera for Sensor Fusion __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9590496)]
-* 2021-CFTrack: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV Workshops`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9669223)]
-* 2021-3D Detection and Tracking for On-road Vehicles with a Monovision Camera and Dual Low-cost 4D mmWave Radars __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/9564904)]
-* 2022-Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion Under Severe Weather Conditions __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9363012)]
+* 2021 - A Novel Spatio-Temporal Synchronization Method of Roadside Asynchronous MMW Radar-Camera for Sensor Fusion __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9590496)]
+* 2021 - **CFTrack**: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV Workshops`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9669223)]
+* 2021 - 3D Detection and Tracking for On-road Vehicles with a Monovision Camera and Dual Low-cost 4D mmWave Radars __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/9564904)]
+* 2022 - Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion Under Severe Weather Conditions __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9363012)]
+
+
+## Radar-LiDAR
+### Detection
+* 2022 - **RaLiBEV**: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection System [[Paper](https://arxiv.org/abs/2211.06108)]
+* 2022 - Modality-Agnostic Learning for Radar-Lidar Fusion in Vehicle Detection  __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Modality-Agnostic_Learning_for_Radar-Lidar_Fusion_in_Vehicle_Detection_CVPR_2022_paper.html)]
+* 2023 - **Bi-LRFusion**: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Bi-LRFusion_Bi-Directional_LiDAR-Radar_Fusion_for_3D_Dynamic_Object_Detection_CVPR_2023_paper.html)]
+* 2023 - Multi-Modal and Multi-Scale Fusion 3D Object Detection of 4D Radar and LiDAR for Autonomous Driving [__`Astyx`__] __`TVT`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9991894)]
+
+## Camera-LiDAR
+### Detection
+* 2021 - Joint Multi-Object Detection and Tracking with Camera-LiDAR Fusion for Autonomous Driving __`IROS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9636311)]
+
+## Camera-LiDAR-Radar
+### Detection 
+* 2023 - [**BEV-Guide**] BEV-Guided Multi-Modality Fusion for Driving Perception __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Man_BEV-Guided_Multi-Modality_Fusion_for_Driving_Perception_CVPR_2023_paper.html)]
+* 2023 - **DeepFusion**: A Robust and Modular 3D Object Detector for Lidars, Cameras and Radars __`IROS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9981778)]
 
 ## Citation
 Please use the following citation when referencing

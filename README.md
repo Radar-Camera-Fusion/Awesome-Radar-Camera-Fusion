@@ -89,9 +89,6 @@
 | 31 | CramNet    | 2022 | Object Detection | 3D box | Range-Azimuth Tensor      | Feature Level | RADIATE  |             |
 | 32 | MVFusion   | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | nuScenes |             |
 | 33 | CRN        | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | nuScenes |             |
-| 33 | RCFusion        | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | VoD <br> TJ4DRadSet |             |
-
-
 
 ## Radar-Camera
 
@@ -99,7 +96,10 @@
 
 * 2022 - Detecting Darting Out Pedestrians With Occlusion Aware Sensor Fusion of Radar and Stereo Camera  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/9941368)]
 * 2023 - **Achelous**: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar [__`WaterScenes`__] __`ITSC`__  [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]
+* 2023 - **RCFusion**: Fusing 4-D Radar and Camera With Bird’s-Eye View Features for 3-D Object Detection [__`VoD`__ __`TJ4DRadSet`__]  __`TIM`__ [[Paper](https://ieeexplore.ieee.org/document/10138035)]
 * 2023 - **LXL**: LiDAR Exclusive Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion  [__`VoD`__ __`TJ4DRadSet`__]  __`TIV`__ [[Paper](https://arxiv.org/abs/2307.00724)]
+* 2023 - **REDFormer**: Radar Enlightens the Darkness of Camera Perception with Transformers [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10310160/)]
+* 2023 - **SparseFusion3D**: Sparse Sensor Fusion for 3D object detection by Radar and Camera in Environmental Perception [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10314799)]
 
 ### Segmentation
 

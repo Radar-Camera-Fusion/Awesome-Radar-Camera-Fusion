@@ -12,6 +12,7 @@
     - [Detection](#detection)
     - [Segmentation](#segmentation)
     - [Tracking](#tracking)
+    - [Multi-Task](#multi-task)
   - [Radar-LiDAR](#radar-lidar)
     - [Detection](#detection-1)
   - [Camera-LiDAR](#camera-lidar)
@@ -95,7 +96,6 @@
 ### Detection
 
 * 2022 - Detecting Darting Out Pedestrians With Occlusion Aware Sensor Fusion of Radar and Stereo Camera  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/9941368)]
-* 2023 - **Achelous**: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar [__`WaterScenes`__] __`ITSC`__  [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]
 * 2023 - **RCFusion**: Fusing 4-D Radar and Camera With Bird’s-Eye View Features for 3-D Object Detection [__`VoD`__ __`TJ4DRadSet`__]  __`TIM`__ [[Paper](https://ieeexplore.ieee.org/document/10138035)]
 * 2023 - **LXL**: LiDAR Exclusive Lean 3D Object Detection with 4D Imaging Radar and Camera Fusion  [__`VoD`__ __`TJ4DRadSet`__]  __`TIV`__ [[Paper](https://arxiv.org/abs/2307.00724)]
 * 2023 - **REDFormer**: Radar Enlightens the Darkness of Camera Perception with Transformers [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10310160/)]
@@ -108,6 +108,11 @@
 * 2021 - **CFTrack**: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV Workshops`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9669223)]
 * 2021 - 3D Detection and Tracking for On-road Vehicles with a Monovision Camera and Dual Low-cost 4D mmWave Radars __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/9564904)]
 * 2022 - Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion Under Severe Weather Conditions __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9363012)]
+
+### Multi-Task
+* 2023 - **Achelous**: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar [__`WaterScenes`__] __`ITSC`__  [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]
+* 2023 - **Mask-VRDet**: Mask-VRDet: A robust riverway panoptic perception model based on dual graph fusion of vision and 4D mmWave radar[__`WaterScenes`__] __`RAS`__  [[Paper](https://www.sciencedirect.com/science/article/pii/S0921889023002117)] [[GitHub](https://github.com/GuanRunwei/Mask-VRDet-Official)]
+* 2023 - **Efficient-VRNet**: An Exquisite Fusion Network for Riverway Panoptic Perception based on Asymmetric Fair Fusion of Vision and 4D mmWave Radar [__`WaterScenes`__] __`arXiv`__  [[Paper](https://arxiv.org/abs/2308.10287)] [[GitHub](https://github.com/GuanRunwei/Efficient-VRNet)]
 
 
 ## Radar-LiDAR

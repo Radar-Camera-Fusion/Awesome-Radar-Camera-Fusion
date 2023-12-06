@@ -12,6 +12,7 @@
     - [Detection](#detection)
     - [Segmentation](#segmentation)
     - [Tracking](#tracking)
+    - [Odometry](#odometry)
     - [Multi-Task](#multi-task)
   - [Radar-LiDAR](#radar-lidar)
     - [Detection](#detection-1)
@@ -108,6 +109,9 @@
 * 2021 - **CFTrack**: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV Workshops`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9669223)]
 * 2021 - 3D Detection and Tracking for On-road Vehicles with a Monovision Camera and Dual Low-cost 4D mmWave Radars __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/9564904)]
 * 2022 - Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion Under Severe Weather Conditions __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9363012)]
+
+### Odometry
+* 2023 - 4DRVO-Net: Deep 4D Radar–Visual Odometry Using Multi-Modal and Multi-Scale Adaptive Fusion __`TIV`__ [__`VoD`__][[Paper](https://ieeexplore.ieee.org/document/10313030)]
 
 ### Multi-Task
 * 2023 - **Achelous**: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar [__`WaterScenes`__] __`ITSC`__  [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]

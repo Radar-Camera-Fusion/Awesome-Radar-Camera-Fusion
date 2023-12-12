@@ -1,32 +1,32 @@
 # <img src='image/logo.png' height=30 />  Awesome Radar-Camera Fusion 
 
+<img src='image/cover.png' width=600 /> 
+
 ## Overview
 
-
-- [  Awesome Radar-Camera Fusion](#--awesome-radar-camera-fusion)
-  - [Overview](#overview)
-  - [Surveys](#surveys)
-  - [Datasets](#datasets)
-  - [Methods](#methods)
-  - [Radar-Camera](#radar-camera)
-    - [Detection](#detection)
-    - [Segmentation](#segmentation)
-    - [Tracking](#tracking)
-    - [Odometry](#odometry)
-    - [Multi-Task](#multi-task)
-  - [Radar-LiDAR](#radar-lidar)
-    - [Detection](#detection-1)
-  - [Camera-LiDAR](#camera-lidar)
-    - [Detection](#detection-2)
-  - [Camera-LiDAR-Radar](#camera-lidar-radar)
-    - [Detection](#detection-3)
-  - [Citation](#citation)
+- [Surveys](#surveys)
+- [Datasets](#datasets)
+- [Methods](#methods)
+- [Radar-Camera](#radar-camera)
+  - [Detection](#detection)
+  - [Segmentation](#segmentation)
+  - [Tracking](#tracking)
+  - [Odometry](#odometry)
+  - [Multi-Task](#multi-task)
+- [Radar-LiDAR](#radar-lidar)
+  - [Detection](#detection-1)
+- [Camera-LiDAR](#camera-lidar)
+  - [Detection](#detection-2)
+- [Camera-LiDAR-Radar](#camera-lidar-radar)
+  - [Detection](#detection-3)
+- [Citation](#citation)
 
 ## Surveys
 
 * 2023 - Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10225711)] [[Website](https://radar-camera-fusion.github.io)] [[GitHub](https://github.com/Radar-Camera-Fusion/Awesome-Radar-Camera-Fusion)]
 * 2021 - Deep Multi-Modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9000872)] [[Website](https://boschresearch.github.io/multimodalperception/)]
 * 2023 - Vision-RADAR fusion for Robotics BEV Detections: A Survey __`IV`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10186647)]
+* 2023 - Radar Perception in Autonomous Driving: Exploring Different Data Representations __`arXiv`__ [[Paper](https://arxiv.org/abs/2312.04861)] [[Website](https://radar-camera-fusion.github.io/radar)] [[GitHub](https://github.com/Radar-Camera-Fusion/Awesome-Radar-Perception)]
   
 ## Datasets
 | Id | Name             | Year | Task                                                                                                      | Annotation                     | Radar Data Representation                                   | Link                                                         |
@@ -93,6 +93,7 @@
 | 33 | CRN        | 2023 | Object Detection | 3D box | Point Cloud               | Feature Level | nuScenes |             |
 
 ## Radar-Camera
+<img src='image/methodology.png' width=800 /> 
 
 ### Detection
 

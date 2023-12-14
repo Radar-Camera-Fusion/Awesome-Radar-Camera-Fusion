@@ -122,10 +122,13 @@
 
 ## Radar-LiDAR
 ### Detection
+* 2021 - Robust multimodal vehicle detection in foggy weather using complementary lidar and radar signals __`CVPR`__ [[Paper](https://ieeexplore.ieee.org/document/9578621)]
 * 2022 - **RaLiBEV**: Radar and LiDAR BEV Fusion Learning for Anchor Box Free Object Detection System [[Paper](https://arxiv.org/abs/2211.06108)]
+* 2022 - Modality-agnostic learning for radar-lidar fusion in vehicle detection __`CVPR`__ [[Paper](https://ieeexplore.ieee.org/document/9879704)]
 * 2022 - [**ST-MVDNet**] Modality-Agnostic Learning for Radar-Lidar Fusion in Vehicle Detection  [__`Oxford Radar Robotcar`__]__`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Li_Modality-Agnostic_Learning_for_Radar-Lidar_Fusion_in_Vehicle_Detection_CVPR_2022_paper.html)]
 * 2023 - **Bi-LRFusion**: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Bi-LRFusion_Bi-Directional_LiDAR-Radar_Fusion_for_3D_Dynamic_Object_Detection_CVPR_2023_paper.html)]
 * 2023 - Multi-Modal and Multi-Scale Fusion 3D Object Detection of 4D Radar and LiDAR for Autonomous Driving [__`Astyx`__] __`TVT`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9991894)]
+* 2023 - **ST-MVDNet++**: Improve vehicle detection with lidar-radar geometrical augmentation via self-training __`ICASSP`__ [[Paper](https://ieeexplore.ieee.org/document/10096041/)]
 
 ## Camera-LiDAR
 ### Detection

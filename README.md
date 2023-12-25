@@ -129,10 +129,12 @@
 * 2023 - **Bi-LRFusion**: Bi-Directional LiDAR-Radar Fusion for 3D Dynamic Object Detection __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Bi-LRFusion_Bi-Directional_LiDAR-Radar_Fusion_for_3D_Dynamic_Object_Detection_CVPR_2023_paper.html)]
 * 2023 - Multi-Modal and Multi-Scale Fusion 3D Object Detection of 4D Radar and LiDAR for Autonomous Driving [__`Astyx`__] __`TVT`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9991894)]
 * 2023 - **ST-MVDNet++**: Improve vehicle detection with lidar-radar geometrical augmentation via self-training __`ICASSP`__ [[Paper](https://ieeexplore.ieee.org/document/10096041/)]
+* 2023 - **ACF-Net**: Asymmetric Cascade Fusion for 3D Detection With LiDAR Point Clouds and Images __`TIV`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10363115)]
 
 ## Camera-LiDAR
 ### Detection
 * 2021 - Joint Multi-Object Detection and Tracking with Camera-LiDAR Fusion for Autonomous Driving __`IROS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9636311)]
+* 2023 - **RoboBEV**: Towards Robust Bird’s Eye View Perception under Corruptions [__`nuScenes`__] [[Paper](https://arxiv.org/abs/2304.06719) [Code](https://github.com/Daniel-xsy/RoboBEV)]
 
 ## Camera-LiDAR-Radar
 ### Detection 

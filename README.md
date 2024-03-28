@@ -105,7 +105,6 @@
 * 2023 - **SparseFusion3D**: Sparse Sensor Fusion for 3D object detection by Radar and Camera in Environmental Perception [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10314799)]
 * 2023 - **CRN**: Camera Radar Net for Accurate, Robust, Efficient 3D Perception [__`nuScenes`__] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)] [[Code](https://github.com/youngskkim/CRN)]
 * 2024 - **RCBEVDet**: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.16440)] [[Code](https://github.com/VDIGPKU/RCBEVDet)]
-* 2024 - **BEVCar**: Camera-Radar Fusion for BEV Map and Object Segmentation [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.11761)] [[Website](http://bevcar.cs.uni-freiburg.de/)] [[Code](https://github.com/robot-learning-freiburg/BEVCar)]
 
 
 ### Tracking
@@ -120,6 +119,7 @@ Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](
 
 
 ### Segmentation
+* 2024 - **BEVCar**: Camera-Radar Fusion for BEV Map and Object Segmentation [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.11761)] [[Website](http://bevcar.cs.uni-freiburg.de/)] [[Code](https://github.com/robot-learning-freiburg/BEVCar)]
 
 ### Depth Estimation 
 * 2023 - Depth Estimation From Camera Image and mmWave Radar Point Cloud [__`nuScenes`__] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Singh_Depth_Estimation_From_Camera_Image_and_mmWave_Radar_Point_Cloud_CVPR_2023_paper.html)] [[Code](https://github.com/nesl/radar-camera-fusion-depth)]

@@ -104,6 +104,8 @@
 * 2023 - **REDFormer**: Radar Enlightens the Darkness of Camera Perception with Transformers [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10310160/)] [[Code](https://github.com/PurdueDigitalTwin/REDFormer)]
 * 2023 - **SparseFusion3D**: Sparse Sensor Fusion for 3D object detection by Radar and Camera in Environmental Perception [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10314799)]
 * 2023 - **CRN**: Camera Radar Net for Accurate, Robust, Efficient 3D Perception [__`nuScenes`__] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)] [[Code](https://github.com/youngskkim/CRN)]
+* 2024 - **RCBEVDet**: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.16440)] [[Code](https://github.com/VDIGPKU/RCBEVDet)]
+* 2024 - **BEVCar**: Camera-Radar Fusion for BEV Map and Object Segmentation [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.11761)] [[Website](http://bevcar.cs.uni-freiburg.de/)] [[Code](https://github.com/robot-learning-freiburg/BEVCar)]
 
 
 ### Tracking

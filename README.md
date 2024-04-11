@@ -132,7 +132,7 @@ Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](
 * 2023 - **Achelous**: A Fast Unified Water-surface Panoptic Perception Framework based on Fusion of Monocular Camera and 4D mmWave Radar [__`WaterScenes`__] __`ITSC`__  [[Paper](https://arxiv.org/abs/2307.07102)] [[GitHub](https://github.com/GuanRunwei/Achelous)]
 * 2023 - **Mask-VRDet**: Mask-VRDet: A robust riverway panoptic perception model based on dual graph fusion of vision and 4D mmWave radar[__`WaterScenes`__] __`RAS`__  [[Paper](https://www.sciencedirect.com/science/article/pii/S0921889023002117)] [[GitHub](https://github.com/GuanRunwei/Mask-VRDet-Official)]
 * 2023 - **Efficient-VRNet**: An Exquisite Fusion Network for Riverway Panoptic Perception based on Asymmetric Fair Fusion of Vision and 4D mmWave Radar [__`WaterScenes`__] __`arXiv`__  [[Paper](https://arxiv.org/abs/2308.10287)] [[GitHub](https://github.com/GuanRunwei/Efficient-VRNet)]
-* 2023 - CRN: Camera Radar Net for Accurate, Robust, Efficient 3D Perception [__`nuScenes`__] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)] [[Code](https://github.com/youngskkim/CRN)]
+* 2023 - **CRN**: Camera Radar Net for Accurate, Robust, Efficient 3D Perception [__`nuScenes`__] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)] [[Code](https://github.com/youngskkim/CRN)]
 
 
 ## Radar-LiDAR
@@ -163,9 +163,9 @@ Please use the following citation when referencing
   author={Yao, Shanliang and Guan, Runwei and Huang, Xiaoyu and Li, Zhuoxiao and Sha, Xiangyu and Yue, Yong and Lim, Eng Gee and Seo, Hyungjoon and Man, Ka Lok and Zhu, Xiaohui and Yue, Yutao},
   journal={IEEE Transactions on Intelligent Vehicles}, 
   title={Radar-Camera Fusion for Object Detection and Semantic Segmentation in Autonomous Driving: A Comprehensive Review}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={1-40},
+  year={2024},
+  volume={9},
+  number={1},
+  pages={2094-2128},
   doi={10.1109/TIV.2023.3307157}}
 ```

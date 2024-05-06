@@ -104,6 +104,7 @@
 * 2023 - **REDFormer**: Radar Enlightens the Darkness of Camera Perception with Transformers [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10310160/)] [[Code](https://github.com/PurdueDigitalTwin/REDFormer)]
 * 2023 - **SparseFusion3D**: Sparse Sensor Fusion for 3D object detection by Radar and Camera in Environmental Perception [__`nuScenes`__]  __`TIV`__ [[Paper](https://ieeexplore.ieee.org/document/10314799)]
 * 2023 - **CRN**: Camera Radar Net for Accurate, Robust, Efficient 3D Perception [__`nuScenes`__] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)] [[Code](https://github.com/youngskkim/CRN)]
+* 2023 - **RADIANT**: Radar-Image Association Network for 3D Object Detection [__`nuScenes`__] __`AAAI`__ [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25270)] [[Code](https://github.com/longyunf/radiant)]
 * 2024 - **RCBEVDet**: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.16440)] [[Code](https://github.com/VDIGPKU/RCBEVDet)]
 * 2024 - **CRKD**: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.19104)]
 

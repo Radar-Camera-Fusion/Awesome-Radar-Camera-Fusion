@@ -117,7 +117,9 @@ Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](
 * 2021 - **CFTrack**: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV Workshops`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9669223)]
 * 2021 - 3D Detection and Tracking for On-road Vehicles with a Monovision Camera and Dual Low-cost 4D mmWave Radars __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/9564904)]
 * 2022 - Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion Under Severe Weather Conditions __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9363012)]
+* 2022 - Robust multiobject tracking using mmwave radar-camera sensor fusion __`IEEESensorsLetters`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9916096)]
 * 2023 - **CRN**: Camera Radar Net for Accurate, Robust, Efficient 3D Perception [__`nuScenes`__] __`ICCV`__ [[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Kim_CRN_Camera_Radar_Net_for_Accurate_Robust_Efficient_3D_Perception_ICCV_2023_paper.html)] [[Code](https://github.com/youngskkim/CRN)]
+* 2024 - Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/10592816)]
 
 
 ### Segmentation

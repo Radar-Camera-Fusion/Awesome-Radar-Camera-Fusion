@@ -107,6 +107,7 @@
 * 2023 - **RADIANT**: Radar-Image Association Network for 3D Object Detection [__`nuScenes`__] __`AAAI`__ [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25270)] [[Code](https://github.com/longyunf/radiant)]
 * 2024 - **RCBEVDet**: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.16440)] [[Code](https://github.com/VDIGPKU/RCBEVDet)]
 * 2024 - **CRKD**: Enhanced Camera-Radar Object Detection with Cross-modality Knowledge Distillation [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.19104)]
+* 2024 - **RCBEVDet++**: Toward High-accuracy Radar-Camera Fusion 3D Perception Network [__`nuScenes`__] __`arXiv`__ [[Paper](https://arxiv.org/abs/2409.04979)] [[Code](https://github.com/VDIGPKU/RCBEVDet)]
 
 
 ### Tracking

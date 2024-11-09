@@ -28,6 +28,8 @@
 * 2021 - Deep Multi-Modal Object Detection and Semantic Segmentation for Autonomous Driving: Datasets, Methods, and Challenges __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9000872)] [[Website](https://boschresearch.github.io/multimodalperception/)]
 * 2023 - Vision-RADAR fusion for Robotics BEV Detections: A Survey __`IV`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/10186647)]
 * 2023 - Radar Perception in Autonomous Driving: Exploring Different Data Representations __`arXiv`__ [[Paper](https://arxiv.org/abs/2312.04861)] [[Website](https://radar-camera-fusion.github.io/radar)] [[GitHub](https://github.com/Radar-Camera-Fusion/Awesome-Radar-Perception)]
+* 2024 - Radar and Camera Fusion for Object Detection and
+Tracking: A Comprehensive Survey __`arXiv`__ [[Paper](https://arxiv.org/abs/2410.19872)]
   
 ## Datasets
 | Id | Name             | Year | Task                                                                                                      | Annotation                     | Radar Data Representation                                   | Link                                                         |

@@ -130,7 +130,7 @@ Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](
 
 
 ### Segmentation
-* 2024 - **BEVCar**: Camera-Radar Fusion for BEV Map and Object Segmentation [__`nuScenes`__] __`CVPR`__ [[Paper](https://arxiv.org/abs/2403.11761)] [[Website](http://bevcar.cs.uni-freiburg.de/)] [[Code](https://github.com/robot-learning-freiburg/BEVCar)]
+* 2024 - **BEVCar**: Camera-Radar Fusion for BEV Map and Object Segmentation [__`nuScenes`__] __`IROS`__ [[Paper](https://arxiv.org/abs/2403.11761)] [[Website](http://bevcar.cs.uni-freiburg.de/)] [[Code](https://github.com/robot-learning-freiburg/BEVCar)]
 
 ### Depth Estimation 
 * 2023 - Depth Estimation From Camera Image and mmWave Radar Point Cloud [__`nuScenes`__] __`CVPR`__ [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Singh_Depth_Estimation_From_Camera_Image_and_mmWave_Radar_Point_Cloud_CVPR_2023_paper.html)] [[Code](https://github.com/nesl/radar-camera-fusion-depth)]

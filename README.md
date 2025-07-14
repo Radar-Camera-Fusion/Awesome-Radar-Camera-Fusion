@@ -55,6 +55,7 @@
 | 20 | WaterScenes    | 2023 | Instance Segmentation<br>Semantic Segmentation<br>Free-space Segmentation<br>Waterline Segmentation<br>Panoptic Perception          | 2D box<br>2D pixel<br>2D line<br>3D point               | __`4D`__ Point cloud                                                           |  [Paper](https://ieeexplore.ieee.org/document/10571852) [Website](https://waterscenes.github.io) [GitHub](https://github.com/waterscenes/waterscenes) |
 | 21 | ThermRad | 2023 | Object Detection | 3D box | __`4D`__ Point Cloud | [Paper](https://arxiv.org/abs/2308.10161)|
 | 22 | Dual Radar | 2023 | Object Detection<br>Object Tracking | 3D box | __`4D`__ Point Cloud | [Paper](https://arxiv.org/abs/2310.07602) [GitHub](https://github.com/adept-thu/Dual-Radar)|
+| 23 | USVTrack | 2025 | Object Detection<br>Object Tracking | 2D box | __`4D`__ Point Cloud | [Paper](https://arxiv.org/abs/2506.18737) [GitHub](https://github.com/USVTrack/USVTrack)|
 
 
 ## Methods
@@ -115,8 +116,7 @@
 * 2016 - On-Road Vehicle Detection and Tracking Using MMW Radar and Monovision Fusion __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/7463071)]
 * 2019 - Target Detection Algorithm Based on MMW Radar and Camera Fusion __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/8917504)]
 * 2021 - A Novel Spatio-Temporal Synchronization Method of Roadside Asynchronous MMW Radar-Camera for Sensor Fusion __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9590496)]
-* 2021 - Robust Detection and Tracking Method for
-Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9314172)]
+* 2021 - Robust Detection and Tracking Method for Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9314172)]
 * 2021 - **CFTrack**: Center-based Radar and Camera Fusion for 3D Multi-Object Tracking __`IV Workshops`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9669223)]
 * 2021 - 3D Detection and Tracking for On-road Vehicles with a Monovision Camera and Dual Low-cost 4D mmWave Radars __`ITSC`__ [[Paper](https://ieeexplore.ieee.org/document/9564904)]
 * 2022 - Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion Under Severe Weather Conditions __`TITS`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9363012)]
@@ -126,6 +126,7 @@ Moving Object Based on Radar and Camera Data Fusion __`IEEE Sensors`__ [[Paper](
 * 2023 - Online Multi-pedestrian Tracking based on Fused Detections of Millimeter Wave Radar and Vision __`IEEE Sensors Journal`__ [[Paper](https://ieeexplore.ieee.org/document/10075367)]
 * 2023 - Asynchronous Information Fusion in Intelligent Driving Systems for Target Tracking Using Cameras and Radars __`TIE`__ [[Paper](https://ieeexplore.ieee.org/abstract/document/9765719)]
 * 2024 - Deep Learning-Based Robust Multi-Object Tracking via Fusion of mmWave Radar and Camera Sensors __`TITS`__ [[Paper](https://ieeexplore.ieee.org/document/10592816)]
+* 2025 - USVTrack: USV-Based 4D Radar-Camera Tracking Dataset for Autonomous Driving in Inland Waterways __`IROS`__ [[Paper](https://arxiv.org/abs/2506.18737)]
 
 
 ### Segmentation
